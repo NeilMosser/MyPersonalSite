@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted #C6E7E7;
+  width: 6%;
+
+}
+a {
+color: #11999E;
+font-family: "Montserrat", sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container {
+  padding: 80px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 50px 0 20px 0;
+
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.my-photo {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.hello-description{
+  text-align: center;
+  margin: auto 30.5% 4% 30.5%;
+  line-height: 2;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+
+
+.programmer {
+  font-weight: normal;
+}
+
+.paint-img {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+
+}
+.computer-img {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+
+}
+.mountain {
+
+  margin-bottom: -5px;
+}
+
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+
+	background-color:#66bfbf;
+  background-image: linear-gradient(#66bfbf, #11999E );
+	border-radius:12px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:21px;
+	padding: 10px 20px 10px 20px;
+	text-decoration:none;
+
+}
+
+.btn:hover {
+  background-image: linear-gradient(#11999E, #66bfbf);
+	background-color:#30e3cb;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me {
+  margin-bottom: 20px;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0 20px 0;
+
+}
